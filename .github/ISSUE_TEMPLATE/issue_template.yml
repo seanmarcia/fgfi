@@ -34,7 +34,7 @@ body:
       label: Project Description
       description: "Description of what you'd like undertaken. Limit your response to 300 characters."
   - type: textarea
-    id: project_description
+    id: project_detail_description
     attributes:
       label: Project Detailed Description
       description: "Explain the project that you'd like undertaken for your organization. Please be as detailed as possible."
