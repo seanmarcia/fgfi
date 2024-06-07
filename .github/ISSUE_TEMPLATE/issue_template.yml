@@ -1,0 +1,88 @@
+name: Submit Your Social Sector Help Request
+description: Use this form to submit a request for a volunteering team to undertake a larger scope of work for your organization.
+title: "New Social Sector Volunteering Request"
+labels: ["awaiting approval"]
+assignees: 'seanmarcia'
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This is the form for your social sector organization to submit a request for a volunteering team at a company or organization to undertake a larger scope of work for your organization. This type of work is typically referred to as an "epic," which is a large body of work that can be broken down into smaller, more manageable tasks, and requires the efforts of a team.
+        
+        For smaller, individual tasks, please continue to label the issues as "Help Wanted" and "Good First Issue" using the labels found in the "Labels" section on the right sidebar of the issue creation page. These issues will be pulled into the individual contributor portion of For Good First Issue.
+        
+        To see an example of this form filled out, please refer to https://github.com/seanmarcia/fgfi/issues/1
+  - type: input
+    id: organization_name
+    attributes:
+      label: Organization Name
+      description: "Name of your social sector organization, ie- World Wildlife Fund"
+  - type: input
+    id: github_organization
+    attributes:
+      label: GitHub Organization
+      description: "Link to your GitHub organization, ie- https://github.com/wwfus"
+  - type: input
+    id: public_website
+    attributes:
+      label: Public Website
+      description: "Link to your organizations public website, ie- https://www.worldwildlife.org/"
+  - type: textarea
+    id: project_description
+    attributes:
+      label: Project Description
+      description: "Explain the project that you'd like undertaken for your organization. Please be as detailed as possible."
+  - type: textarea
+    id: project_value
+    attributes:
+      label: Project Value
+      description: "Explain the value to the users or end users of what will be built."
+  - type: input
+    id: technologies_used
+    attributes:
+      label: Technologies Used
+      description: "List the technologies used in the project separate each technology with a comma. ie- Typescript, Golang, Rust"
+  - type: checkboxes
+    id: organization_focus_area
+    attributes:
+      label: Organization Focus Area
+      description: "Select the area(s) your organization works in."
+      options:
+        - label: Adult education
+        - label: Arts and culture
+        - label: Business and industry
+        - label: Child care/early childhood education
+        - label: Cross-cultural
+        - label: Disaster/emergency management
+        - label: Educational technologies
+        - label: Environmental programs
+        - label: Evaluation methods
+        - label: Evaluation theory
+        - label: Food Services
+        - label: Foundations
+        - label: Health/public health
+        - label: Higher education
+        - label: Housing
+        - label: Human development
+        - label: Human resources
+        - label: Human services
+        - label: Indigenous peoples
+        - label: Information systems
+        - label: International
+        - label: K-12 (primary) education
+        - label: Law/criminal justice
+        - label: Lesbian, gay, bisexual and transgender issues
+        - label: Media
+        - label: Medicine
+        - label: Non-profits/NGOs
+        - label: Organizational behavior
+        - label: Public policy/public administration
+        - label: Science, technology, engineering, math (STEM)
+        - label: Social work
+        - label: Special needs populations
+        - label: Sports
+        - label: Technology
+        - label: Workforce/economic development
+        - label: Youth development
+        - label: Other
